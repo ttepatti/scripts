@@ -3,7 +3,7 @@
 # By Tim
 
 # Insert your download path here
-backups="/srv/dev-disk-by-label-eggs/eggs/DVDs/"
+backups="~/backups/"
 # dvdbackup command
 echo Running dvdbackup...
 dvdbackup -i /dev/sr0 -o $backups -M
